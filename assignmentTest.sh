@@ -150,8 +150,8 @@ fi
 
 
 
-#javac Dog.java
-#java DogCreator > output.txt
+javac Dog.java
+java DogCreator > output.txt
 
 
 
