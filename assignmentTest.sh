@@ -7,7 +7,7 @@ if [ -n "$results" ]
 then 
 ((score++))
 fi
-echo "$score"
+
 
 results=`grep -i -E "class dog" Dog.java`
 if [ -n "$results" ]
@@ -155,18 +155,16 @@ then
 ((score++))
 fi
 
+echo "Java Program needs a score of 25 or greater to pass"
+echo 
 
-
-
-
-
-
-
-
-echo "$score"
-if [ $score -gt 1 ]
+if [ "$score" -gt 24 ]
 then
-echo "It passed"
-else 
-echo "fail"
+echo "Your Program passed with a score of: $score"
 fi
+
+echo
+
+echo "The results of running your java program is"
+echo
+cat output.txt
