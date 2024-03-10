@@ -1,0 +1,20 @@
+Name: Gus
+Breed: Pug 
+Age: 8 
+FurColor: Black
+ServiceDog?: false
+Woof Woof
+
+Name: Fred
+Breed: Lab 
+Age: 3 
+FurColor: Yellow
+ServiceDog?: true
+Woof Woof
+
+Name: Buddy
+Breed: Dachshund 
+Age: 14 
+FurColor: Brown
+ServiceDog?: false
+Woof Woof
