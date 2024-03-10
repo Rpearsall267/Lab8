@@ -111,10 +111,41 @@ then
 ((score++))
 fi
 
+results=`grep -i -E "dogone.tostring()" Dog.java`
+if [ -n "$results" ]
+then 
+((score++))
+fi
 
+results=`grep -i -E "dogtwo.tostring()" Dog.java`
+if [ -n "$results" ]
+then 
+((score++))
+fi
 
+results=`grep -i -E "dogthree.tostring()" Dog.java`
+if [ -n "$results" ]
+then 
+((score++))
+fi
 
+results=`grep -i -E "dogone.bark()" Dog.java`
+if [ -n "$results" ]
+then 
+((score++))
+fi
 
+results=`grep -i -E "dogtwo.bark()" Dog.java`
+if [ -n "$results" ]
+then 
+((score++))
+fi
+
+results=`grep -i -E "dogthree.bark()" Dog.java`
+if [ -n "$results" ]
+then 
+((score++))
+fi
 
 
 
