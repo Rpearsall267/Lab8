@@ -93,6 +93,27 @@ then
 ((score++))
 fi
 
+results=`grep -i -E "dogone = new" Dog.java`
+if [ -n "$results" ]
+then 
+((score++))
+fi
+
+results=`grep -i -E "dogtwo = new" Dog.java`
+if [ -n "$results" ]
+then 
+((score++))
+fi
+
+results=`grep -i -E "dogthree = new" Dog.java`
+if [ -n "$results" ]
+then 
+((score++))
+fi
+
+
+
+
 
 
 
