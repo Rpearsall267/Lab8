@@ -161,6 +161,8 @@ echo
 if [ "$score" -gt 24 ]
 then
 echo "Your Program passed with a score of: $score"
+else
+echo "Your Program did not pass with a score of: $score"
 fi
 
 echo
