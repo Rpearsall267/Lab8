@@ -1,0 +1,47 @@
+[33mcommit 2345ada74ee870eb761b43ee72b56f230b45b863[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: rpearsall267 <rpearsall267@gmail.com>
+Date:   Sun Mar 10 10:45:16 2024 -0700
+
+    Saved output of running java program to output.txt file
+
+[33mcommit ee8814511f49f8e934c9fa1d1ee37309b21a3421[m
+Author: rpearsall267 <rpearsall267@gmail.com>
+Date:   Sun Mar 10 10:32:43 2024 -0700
+
+    added search for to string method being called and bark method being called
+
+[33mcommit c2d78e5f286e28bf4a26335daa3cb2e584427a9b[m
+Author: rpearsall267 <rpearsall267@gmail.com>
+Date:   Sun Mar 10 10:17:15 2024 -0700
+
+    Added search for the three dogs that use different arg-constructors
+
+[33mcommit d4889d02b7a24bf72e8b57dc24279ffcb9364219[m
+Author: rpearsall267 <rpearsall267@gmail.com>
+Date:   Sun Mar 10 10:06:27 2024 -0700
+
+    Added search for setter methods
+
+[33mcommit d8d565392433729f2490f147d58a75f0f014d653[m
+Author: rpearsall267 <rpearsall267@gmail.com>
+Date:   Sun Mar 10 09:59:25 2024 -0700
+
+    updated bash script
+
+[33mcommit 6bedb19049df09b50c228d1209d895252ebc10fe[m
+Author: rpearsall267 <rpearsall267@gmail.com>
+Date:   Thu Mar 7 18:28:22 2024 -0800
+
+    Updated bash script
+
+[33mcommit d4e301d28fd5f89ef9e1af140bc2ccd66119ee81[m
+Author: rpearsall267 <rpearsall267@gmail.com>
+Date:   Thu Mar 7 17:58:49 2024 -0800
+
+    Added Dog.java file and compiled
+
+[33mcommit 5588cfde6883a689fb1b63e83f920d1c846c7bed[m
+Author: rpearsall267 <rpearsall267@gmail.com>
+Date:   Thu Mar 7 17:34:32 2024 -0800
+
+    Added assignmentTest.sh

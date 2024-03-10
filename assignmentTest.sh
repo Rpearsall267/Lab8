@@ -147,11 +147,19 @@ then
 ((score++))
 fi
 
-
-
-
 javac Dog.java
 java DogCreator > output.txt
+
+if [ -n "output.txt" ]
+then 
+((score++))
+fi
+
+
+
+
+
+
 
 
 
