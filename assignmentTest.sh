@@ -63,6 +63,39 @@ then
 ((score++))
 fi
 
+results=`grep -i -E "setname" Dog.java`
+if [ -n "$results" ]
+then
+((score++))
+fi
+
+results=`grep -i -E "setage" Dog.java`
+if [ -n "$results" ]
+then
+((score++))
+fi
+
+results=`grep -i -E "setfurcolor" Dog.java`
+if [ -n "$results" ]
+then
+((score++))
+fi
+
+results=`grep -i -E "setbreed" Dog.java`
+if [ -n "$results" ]
+then
+((score++))
+fi
+
+results=`grep -i -E "setservicedog" Dog.java`
+if [ -n "$results" ]
+then
+((score++))
+fi
+
+
+
+
 
 
 #javac Dog.java
